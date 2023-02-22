@@ -1,0 +1,27 @@
+.navbar-brand {
+    font-weight: 700;
+    font-size: 28px
+}
+
+
+.navbar-brand .dot {
+    color: var(--laranja);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #395b7e !important;
+    text-decoration: underline;
+}
+
+.navbar .btn {
+    background-color: var(--laranja);
+}
+
+.modal-botao-close {
+    background-color:var(--cinza)!important ;
+}

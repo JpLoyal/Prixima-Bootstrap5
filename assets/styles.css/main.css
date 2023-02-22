@@ -1,0 +1,145 @@
+main {
+    margin-top: 68px;
+}
+
+.carousel-1-item {
+    height: calc(100vh - 68px)
+}
+
+
+.carouselExample {
+    height: calc(100vh - 68px);
+}
+
+.carousel-1-item::before {
+    display: block;
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.288);
+}
+
+.slide1 {
+    background: url(../img/bg_banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.slide2{
+    background: url(../img/bg_banner2.jpg);
+}
+
+.slide1, .slide2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.controle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+ background-color: var(--laranja);
+}
+
+.card {
+    border: none;
+}
+
+.about__description {
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about__description h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.servicos__title {
+    color: var(--laranja);
+}
+
+.servicos__img {
+    width: 90px;
+    height: 90px;
+}
+
+.servicos__card-title {
+    font-weight: 700;
+}
+
+
+.card__time-nome {
+    font-weight: 700;
+}
+
+.carousel__time {
+    width: 80px;
+    height: 80px;
+}
+
+.carousel__time-nome-2 {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.carousel__time-cargo {
+    color: var(--laranja);
+}
+
+.carousel__coment {
+    font-size: 22px;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+
+.carousel-3-item {
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.6), rgba(8, 32, 50, 0.6)), url(../img/bg_banner1.jpg);
+    background-position: center center;
+}
+
+.blog__botao {
+    width: 200px!important;
+}
+.blog__date {
+    color: var(--laranja)
+}
+
+.blog__title {
+    font-weight: 700;
+}
+
+.rodape__container {
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.6), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg);
+    background-position: center center;
+    color: #FFFFFF;
+}
+
+/* ANIMAÇÃO DOS CARDS */
+
+.animation:hover {
+    transform: scale(1.05);
+    transition: .4s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
+.icon-container a {
+    color: white;
+}

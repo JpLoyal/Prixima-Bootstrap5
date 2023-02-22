@@ -1,0 +1,26 @@
+
+@import url(./header.css);
+@import url(./main.css);
+
+
+:root {
+    --laranja: #ff4d29;
+    --azul-escuro: #092032;
+    --dark:#092032;
+    --cinza: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+
+* {
+    font-family: 'Barlow', sans-serif;;
+}
+
+body {
+    color: var(--body);
+}
+
+
+
